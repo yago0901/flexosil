@@ -1224,20 +1224,6 @@ b {
   position: relative;
 }
 
-._text_mod:before {
-  content: "";
-  background: url("../images/author_ava.jpg") center no-repeat;
-  width: 156px;
-  height: 156px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  display: block;
-  margin: -40px 0 40px;
-  position: relative;
-  z-index: 1;
-}
-
 ._text_mod:after {
   content: "";
   background: url("../images/quotes.png") center no-repeat;
@@ -3034,6 +3020,10 @@ b {
 
   .video .wrapp_play {
     max-width: 65px;
+  }
+
+  .footer_center{
+    flex-direction: column;
   }
 }
 

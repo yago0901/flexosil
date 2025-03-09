@@ -175,9 +175,8 @@ h2._title {
 
 .first_prod-block .prod {
   position: relative;
-  max-width: none;
   z-index: 1;
-  width: 190px;
+  max-width: 190px;
   top: 40%;
   left: -10%;
 }
@@ -2156,6 +2155,17 @@ b {
 @media all and (max-width: 1024px) {
   .regulations_card._morning {
     margin-right: 1.2%;
+  }
+  
+  .first_prod-block .prod {
+    position: relative;
+    z-index: 1;
+    max-width: 140px;
+    top: 40%;
+    left: 15%;
+  }
+  .prod_wrapp:before{
+    top: 0;
   }
 }
 

@@ -507,6 +507,7 @@ h2._title {
   width: 43.3%;
   height: 3px;
   background-color: #1789bb;
+  margin-bottom: -20px;
 }
 
 .mission .review .avatar {
@@ -1621,6 +1622,19 @@ b {
   padding-top: 2rem;
 }
 
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  height: auto;
+  background: #f3f3f3;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
 .background {
   width: 75%;
   height: 85%;
@@ -1639,7 +1653,19 @@ b {
   align-items: center;
   flex-direction: column;
   border-radius: 15px;
-  border: #1789bb solid 4px;
+  background-color: #1789bb20;
+}
+
+.user1,
+.user2,
+.user3,
+.user4 {
+  flex: 1 1 300px;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
   background-color: #1789bb20;
 }
 
@@ -1698,6 +1724,15 @@ b {
 .old_price {
   font-size: 18px;
   color: #888;
+}
+
+.avista{  
+  font-size: 18px;
+  color: #888;
+}
+
+.avista span{  
+  font-size: 22px;
 }
 
 .old_price span {
